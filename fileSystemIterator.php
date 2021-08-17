@@ -8,6 +8,16 @@
 
   </head>
   <body>
+      <!-- 
+
+      DirectoryIterator >> 
+      1. It includes dot files
+      2. It has numbered keys
+      3. In output path not included in value
+      4. We have no configuration options
+      5. Any array requires cloned object
+
+      -->
       <div class="body">
           <h1>
             <?php echo "Hello PHP SPL Class"; ?>
@@ -26,6 +36,16 @@
           ?>
         </code>
       </div>
+      <!-- 
+
+      FileSystemIterator >> 
+      1. The dot files are skipped
+      2. The full pathname is reflected in keys, and values
+      3. The path is also included in values
+      4. We have configuration options, like KEY_AS_FILENAME
+      5. No cloning needed
+
+      -->
       <h2>
               Using FileSystemIterator
       </h2> 
@@ -91,7 +111,11 @@
 
       </div>
 
-
+<!-- 
+    Conclusion:
+    As long as directory iteration is concerned, FileSystemIterator is always a
+    better option than DirectoryIterator
+ -->
 
 
       <p class="footer">
