@@ -17,14 +17,28 @@
             ?>
 
           </h1>
-          <a href="directoryIterator.php">Directory Iterator</a>
-          <p></p>
-          <a href="fileSystemIterator.php">Single Directory Iterator</a>
+          <a href="chapter-five/directoryIterator.php">Directory Iterator</a>
+          <p>
+          <a href="chapter-five/documentFile.php">Document Iterator</a>
+          </p>
+          <p>
+          <a href="chapter-five/chainIterator.php">Chaining Iterator</a>
+          </p>
+          <p>
+          <a href="chapter-five/fileSystemIterator.php">Single Directory Iterator</a>
+          </p>
+          <p>
+          <a href="chapter-five/recursiveIterator.php">Recursive Iterator</a>
+          </p>
+          <p>
+          <a href="chapter-five/getFileInfo.php">File Info</a>
+          </p>
+          <p>
+          <a href="test.php">Test</a>
+          </p>
         
       </div>
     
       
   </body>
 </html>
-
-

@@ -10,5 +10,3 @@ PHP Standard Library Classes.
 A few resources to get you started.
 
 - [Lab: Updated articles on PHP Standard Library Classes](https://sanjibsinha.com/category/php)
-
-
